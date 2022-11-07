@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Homework   16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header"></header>
+      <main class="page">
+         <div class="page__container   block">
+            <p>Any questions?</p>
+            <div class="block__photo">
+               <img src="img/illustration.svg" alt="illustration">
+            </div>
+            <div class="block__item">
+               <h1>Drop us a line</h1>
+               <form action="#"  method="post"  class="form">
+                  <div class="form__user">
+                     <div class="form__first">
+                        <label for="name" class="form__label">First Name*</label>
+                        <input type="text" name="name" id="name"  required autocomplete="off"   placeholder="Your first name" class="form__input">
+                     </div>
+                     <div class="form__last">
+                        <label for="name" class="form__label">Last  Name*</label>
+                        <input type="text" name="name" id="name"  autocomplete="off"   placeholder="Your last name" class="form__input">
+                     </div>
+                  </div>
+                  <div class="form__info">
+                     <div class="form__email">
+                        <label class="form__label" for="email">Email*</label>
+						      <input class="form__input" id="email" autocomplete="off" placeholder="Your working email" name="mail" type="email">
+                     </div>
+                     <div class="form__phone">
+                        <label class="form__label" for="tel">Phone</label>
+                        <input class="form__input" autocomplete="off" placeholder="Your phone number" name="phone" type="tel">
+                     </div>
+                  </div>
+                  <div class="form__text">
+                     <label class="form__label" for="message">Message*</label>
+                     <textarea autocomplete="off" name="message" class="form__area" placeholder="Your message"></textarea>
+                  </div>
+                  <div class="form__end">
+                  <div class="checkbox">
+							<input id="check" autocomplete="off" type="checkbox" value="yes" name="check" class="checkbox__input">
+							<label for="check" class="form__checkbox"><span class="checkbox__text">I agree to receive communications from <br>Createx Online School</span></label>
+						</div>
+                  <div class="form__button">
+                     <button type="submit" class="button__form">Send message</button>
+                     <input type="hidden" value="submit" name="iam-hidden">
+                  </div>
+               </div>
+               </form>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+   
+</body>
+</html>
